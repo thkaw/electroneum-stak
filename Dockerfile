@@ -10,13 +10,13 @@ RUN apt-get update \
     && set -x \
     && apt-get install -qq --no-install-recommends -y build-essential ca-certificates cmake cuda-core-9-0 git cuda-cudart-dev-9-0 libhwloc-dev libmicrohttpd-dev libssl-dev \
     && git clone $GIT_REPOSITORY \
-    && cd /xmr-stak \
+    && cd /electroneum-stak \
     && cmake ${XMRSTAK_CMAKE_FLAGS} . \
     && make \
     && cd - \
-    && mv /xmr-stak/bin/* /usr/local/bin/ \
-    && mv /xmr-stak/config/* /usr/local/bin/ \
-    && rm -rf /xmr-stak \
+    && mv /electroneum-stak/bin/* /usr/local/bin/ \
+    && mv /electroneum-stakconfig/* /usr/local/bin/ \
+    && rm -rf /electroneum-stak \
     && apt-get purge -y -qq build-essential cmake cuda-core-9-0 git cuda-cudart-dev-9-0 libhwloc-dev libmicrohttpd-dev libssl-dev \
     && apt-get clean -qq
 
