@@ -15,7 +15,7 @@ RUN apt-get update \
     && make \
     && cd - \
     && mv /electroneum-stak/bin/* /usr/local/bin/ \
-    && mv /electroneum-stakconfig/* /usr/local/bin/ \
+    && mv /electroneum-stak/config/* /usr/local/bin/ \
     && rm -rf /electroneum-stak \
     && apt-get purge -y -qq build-essential cmake cuda-core-9-0 git cuda-cudart-dev-9-0 libhwloc-dev libmicrohttpd-dev libssl-dev \
     && apt-get clean -qq
