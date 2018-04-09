@@ -15,7 +15,7 @@
  
 "pool_list" :
 [
-	{"pool_address" : "etn-jp1.nanopool.org:13333", "wallet_address" : "etnk4pB8AtzchTfeqq5xis5K12oDzpJxsWYMSTqknx11MgH8yhPJ4R6gZD6Au8m9XVSAQZGh88Pb4P87fKDXDhwo8hQsDpCU1m", "rig_id" : "", "pool_password" : "", "use_nicehash" : false, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 1 },
+	{"pool_address" : "pool.etn.spacepools.org:3333", "wallet_address" : "etnk4pB8AtzchTfeqq5xis5K12oDzpJxsWYMSTqknx11MgH8yhPJ4R6gZD6Au8m9XVSAQZGh88Pb4P87fKDXDhwo8hQsDpCU1m", "rig_id" : "", "pool_password" : "", "use_nicehash" : false, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 1 },
 ],
 
 /*
